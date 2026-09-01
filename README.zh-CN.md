@@ -41,8 +41,8 @@ GOWORK=off GOTOOLCHAIN=local go test ./... -count=1
 - `gnalloy.org/observability-otel`（`otel`）
 
 ## Gnalloy 依赖
+
 - `gnalloy.org/gnalloy`
-- `gnalloy.org/observability`
 
 ## 常见集成方式
 - recorder/exporter 在服务边界配置，并显式传入 handler 或 transport。

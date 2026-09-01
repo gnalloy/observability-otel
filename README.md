@@ -41,8 +41,8 @@ It does not absorb neighboring module responsibilities. Core primitives stay in 
 - `gnalloy.org/observability-otel` (`otel`)
 
 ## Gnalloy Dependencies
+
 - `gnalloy.org/gnalloy`
-- `gnalloy.org/observability`
 
 ## Common Integration Pattern
 - Configure recorder/exporter instances at the service boundary and pass them into handlers or transports explicitly.
